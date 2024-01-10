@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppBenavidesAnthonyCurdMovil.MainPage">
+
+    <StackLayout>
+        <Label></Label>
+        <Label Text="Crud Restaurantes - Platos" FontSize="Title" HorizontalTextAlignment="Center" />
+        <Label Text="By Anthony Benavides" FontSize="Subtitle" HorizontalTextAlignment="End" />
+        <Label></Label>
+
+        <Entry x:Name="txtIdRestaurante" Placeholder="Id del Restaurante"></Entry>
+        <Entry x:Name="txtNombreRestaurante" Placeholder="Nombre del Restaurante"></Entry>
+        <Entry x:Name="txtEstrellasRestaurante" Placeholder="Estrellas del Restaurante"></Entry>
+        <Entry x:Name="txtEspecialidadRestaurante" Placeholder="Especialidad del Restaurante"></Entry>
+        <Entry x:Name="txtCiudadRestaurante" Placeholder="Ciudad del Restaurante"></Entry>
+        <Entry x:Name="txtDireccionRestaurante" Placeholder="DIrección del Restaurante"></Entry>
+
+        <Label></Label>
+        <Button Text="Insertar nuevo restaurante" Clicked="cmdInsertarRestaurante"></Button>
+        <Button Text="Modificar el restaurante" Clicked="cmdActualizarRestaurante"></Button>
+        <Button Text="Buscar restaurante por ID" Clicked="cmdBuscarRestaurante"></Button>
+        <Button Text="Eliminar el restaurante actual" Clicked="cmdEliminarRestaurante"></Button>
+        <Label></Label>
+
+        <Button Text="Página de platillos" Clicked="cmdRelleno"></Button>
+        
+    </StackLayout>
+
+</ContentPage>
